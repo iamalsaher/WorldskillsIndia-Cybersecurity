@@ -1,0 +1,7 @@
+1. Identify the IP address, MAC Address, & Hostname of all 3 machines that were infected
+2. Which was was not actually infected and was a false positive (Jennifer PC)
+3. Which exploit kit was used for the infection? Neutrino
+4. What was the domain it was hosted on? www.koeppl.com
+5. Regarding the previous question, what was the type of malware downloaded?
+6. What was the infection vector for the other machine? Malspam
+7. What was the type of file downloaded, What was its actual injection? Exe, Gif

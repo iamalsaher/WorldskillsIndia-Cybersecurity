@@ -1,0 +1,16 @@
+1. What is the name of the malicious process -> runddl32.exe
+2. Where did the process start running from -> C:\Users\TEKDEF~1\AppData\Local\Temp\MSDCSC\runddl32.exe
+3. Dump the malicious binary and provide the MD5 sum(Hint: It starts with 3D and ends with 0C) -> 3D88BC329E71183AD337ECDFB0823B0C
+4. What was the IP address of the machine at the time the RAM dump was created? -> 192.168.26.136
+5. What is the C2 domain:port for Malware -> test213.no-ip.info:1604
+6. What is the IP for the domain when the RAM dump was created -> 176.106.48.182
+7. What is the PPID of the process that launched the Malware -> 3220
+8. Which other process was launched by the same PPID -> cmd.exe
+9. Which process is further launched by the malware -> notepad.exe
+10. What is the mutex used by the malware -> DC_MUTEX-KHNEW06
+11. What is the file where the malware is storing its logs -> C:\Users\Tek Defense\AppData\Roaming\dclogs\2014-02-03-2.dc
+12. What kind of malicious behaviour is the malware exhibiting based on the logs -> Keylogger
+13. Which SubKey does the malware use for Persistance -> MicroUpdate
+14. What is the name of the malware -> DarkComet
+15. What is the value of GENCODE based on the malware config -> F6FE8i2BxCpu
+ 

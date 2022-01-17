@@ -1,0 +1,12 @@
+1. How many ping requests were sent -> 6
+2. What is the IP address for the MAC 08:00:27:4b:e3:60 -> 10.0.2.15
+3. What version of Internet Group Management Protocol is in use? -> 3
+4. What is the hostname of the device at 10.0.2.22? -> Kali
+5. What is the hostname of the device at 10.0.2.15? -> MSEDGEWIN10
+6. What is the IP address of the DHCP Server -> 10.0.2.3
+7. What is the IP address of the attacker -> 10.0.2.22
+8. What was the first command run by attacker -> whoami
+9. What is the process ID of the RDP session -> 552
+10. What is the source port for the RDP session -> 38604
+
+ 

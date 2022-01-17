@@ -1,0 +1,21 @@
+{% extends "login-layout.html" %} 
+
+{% block meta %}
+<title>Books | Register</title>
+{% endblock %} 
+
+{% block function %}
+{{ url_for('registration') }}
+{% endblock %}
+
+{% block action_text %}
+Please register
+{% endblock %}
+
+{% block link %}
+<p><a href="{{ url_for('index') }}" class="mb-3">Already have account? Log in here -></a></p>
+{% endblock %}
+
+{% block button_text %}
+Register
+{% endblock %}

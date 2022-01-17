@@ -1,0 +1,96 @@
+hostname=EC0004NDO MSHTA
+hostname=EC0004NDO Scripting
+hostname=EC0004NDO InstallUtil
+hostname=EC0004NDO New_Service
+hostname=EC0004NDO Password_DLL_Filter
+
+hostname=NS0000HXE New_Service
+hostname=NS0000HXE MSHTA
+hostname=NS0000HXE InstallUtil
+hostname=NS0000HXE Scripting
+hostname=NS0000HXE Create_Account
+
+hostname=WW0006CDP MSHTA
+hostname=WW0006CDP Scripting
+hostname=WW0006CDP Create_Account
+hostname=WW0006CDP New_Service
+hostname=WW0006CDP Modify_Existing_Service
+hostname=WW0006CDP Password_DLL_Filter
+hostname=WW0006CDP Process_Injection
+hostname=WW0006CDP InstallUtil
+
+hostname=SB0004VPD Password_DLL_Filter
+hostname=SB0004VPD MSHTA
+hostname=SB0004VPD Scripting
+hostname=SB0004VPD InstallUtil
+hostname=SB0004VPD Create_Account
+hostname=SB0004VPD New_Service
+hostname=SB0004VPD Process_Injection
+
+hostname=SN0002LNO MSHTA
+hostname=SN0002LNO Modify_Existing_Service
+hostname=SN0002LNO Create_Account
+hostname=SN0002LNO Scripting
+hostname=SN0002LNO InstallUtil
+hostname=SN0002LNO New_Service
+hostname=SN0002LNO Process_Injection
+
+hostname=NT0002LNO Scripting
+hostname=NT0002LNO Create_Account
+hostname=NT0002LNO Create_Account
+hostname=NT0002LNO Scripting
+hostname=NT0002LNO Modify_Existing_Service
+hostname=NT0002LNO Create_Account
+hostname=NT0002LNO Accessibility_Features
+hostname=NT0002LNO Accessibility_Features
+hostname=NT0002LNO Application_Shimming
+hostname=NT0002LNO Registry_Run_Keys_Start_Folder
+
+hostname=SB0001FSX Create_Account
+hostname=SB0001FSX Accessibility_Features
+hostname=SB0001FSX Screensaver
+hostname=SB0001FSX System_Time_Discovery
+hostname=SB0001FSX MSHTA
+hostname=SB0001FSX Accessibility_Features
+hostname=SB0001FSX Screensaver
+hostname=SB0001FSX Logon_Scripts
+
+hostname=WW0007FSX Process_Injection
+hostname=WW0007FSX Accessibility_Features
+hostname=WW0007FSX Indirect_Command_Execution
+hostname=WW0007FSX Modify_Existing_Service
+hostname=WW0007FSX Scheduled_Task
+hostname=WW0007FSX Credential_Dumping
+hostname=WW0007FSX Scripting
+hostname=WW0007FSX Scripting
+
+hostname=WC0005JHQ Credential_Dumping
+hostname=WC0005JHQ Scripting
+hostname=WC0005JHQ Accessibility_Features
+hostname=WC0005JHQ Rundll32
+hostname=WC0005JHQ Indirect_Command_Execution
+hostname=WC0005JHQ Modify_Existing_Service
+hostname=WC0005JHQ Process_Injection
+hostname=WC0005JHQ Scripting
+hostname=WC0005JHQ Scheduled_Task
+
+hostname=WL0003RHG Accessibility_Features
+hostname=WL0003RHG Modify_Existing_Service
+hostname=WL0003RHG Process_Injection
+hostname=WL0003RHG Credential_Dumping
+hostname=WL0003RHG Scheduled_Task
+hostname=WL0003RHG Rundll32
+hostname=WL0003RHG Scripting
+
+hostname=SS0004NDO Scheduled_Task
+hostname=SS0004NDO Indirect_Command_Execution
+hostname=SS0004NDO Credential_Dumping
+hostname=SS0004NDO Process_Injection
+hostname=SS0004NDO Modify_Existing_Service
+hostname=SS0004NDO Rundll32
+
+hostname=WL0003RYA Scripting
+hostname=WL0003RYA Process_Injection
+hostname=WL0003RYA Scheduled_Task
+hostname=WL0003RYA Modify_Existing_Service
+hostname=WL0003RYA Rundll32

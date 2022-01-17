@@ -1,0 +1,7 @@
+Import-Module .\Invoke-HardeningKitty.ps1
+Invoke-HardeningKitty -FileFindingList .\checker.csv -SkipMachineInformation
+
+chmod +x ./checker.py
+./checker.py
+
+./checker.py -d[a/o/c] if you want debug

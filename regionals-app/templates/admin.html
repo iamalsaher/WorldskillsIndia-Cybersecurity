@@ -1,0 +1,40 @@
+{% extends "main-layout.html" %} 
+
+{% block meta %}
+<title>Books | Welcome</title>
+{% endblock %} 
+
+{% block body %}
+  <div class="container mt-5">
+    <h1 class="text-center">Welcome Admin!</h1>
+    <h3 class="text-center h2 text-muted">Save and restore from backups here</h3>
+
+    <form class="form-inline mx-auto mt-4 mx-w-900" action="{{ url_for('admin') }}" method="POST">
+      <input class="form-control form-control-lg" type="text" name="text"
+        placeholder="Enter book's name, author or ISBN number" value="{{ input_value }}">
+      <button class="btn btn-outline-primary btn-lg">Search</button>
+    </form>
+    
+    {% if results %}
+    <h2 class="text-center my-3">Results:</h2>
+    <ul class="list-group mx-w-900 mx-auto">
+
+        {% for result in results %}
+        <li class="list-group-item">
+          <a href="{{ url_for('backup', isbn=result.isbn) }}">
+            {{ result.title }}, {{ result.author }}, {{ result.year }}, {{ result.isbn }}
+          </a>
+        </li>
+        {% endfor %}
+
+    </ul>
+    {% elif alert_message %}
+      <h4 class="alert alert-danger my-3 w-40 text-center mx-auto">{{ alert_message }}</h4>
+      <form action="{{ url_for('backup', isbn=input_value) }}" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" />  
+        <input class="btn btn-outline-primary btn-lg" type="submit" value="Upload">
+      </form>
+    {% endif %}
+
+  </div>
+{% endblock %}

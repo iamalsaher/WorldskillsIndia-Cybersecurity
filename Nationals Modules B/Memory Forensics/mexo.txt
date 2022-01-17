@@ -1,0 +1,10 @@
+1. What is the name of the malicious process -> reader_sl.exe
+2. What is the PPID of the malicious process -> 1484
+3. With which IP is communication happening at the time RAM dump was taken -> 41.168.5.140
+4. With regards to the above question, also mention the other malicious IP and Port -> 125.19.103.198:8080
+5. What HTTP request(Method and URI) is the malware making at the time of RAM dump -> POST /zb/v_01_a/in/
+6. Mention all malicious IPs you have found(positive points for correct IP, negative for incorrect) -> 41.168.5.140, 125.19.103.198, 188.40.0.138
+7. Where is the malware actually stored(Give complete path) -> C:\Documents and Settings\Robert\Application Data\KB00207877.exe
+8. List the mutants used by the malware -> XMR8149A9A8, XMM00000668
+9. Based on the info you have gathered, what is the goal of the malware -> Steal banking credential
+10. Based on the info you have gathered, how is the process(determined in Q1) related to the malware -> Process injection

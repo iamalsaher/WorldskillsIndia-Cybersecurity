@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  books:
+    build: .
+    restart: always
+    ports:
+      - "80:8000"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - /var/log/gunicorn:/var/log/gunicorn
+  db:
+    image: mariadb:latest
+    restart: always
+    environment:
+      - MARIADB_ALLOW_EMPTY_ROOT_PASSWORD=yes
+      - MARIADB_DATABASE=books
+    volumes:
+      - ./data:/var/lib/mysql
